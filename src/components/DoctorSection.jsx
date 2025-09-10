@@ -2,28 +2,28 @@ import React from 'react';
 
 const doctors = [
   {
+  img: 'https://i.ibb.co/7xZQbwVG/Whats-App-Image-2025-09-09-at-00-26-25.jpg',
+    name: 'Dr. Sanjay Jakhar',
+    title: 'Founder & Medical Director',
+    desc: 'Over 20 years of expertise in Panchkarma, leading integrative treatments for detoxification, rejuvenation, and lifestyle disorders.',
+  },
+  {
     img: 'https://i.ibb.co/Z17NRjbC/Whats-App-Image-2025-09-09-at-00-26-25-1.jpg',
     name: 'Dr. Sunita Jakhar',
-    title: 'Co-Founder (Panchkarma Expert)',
+    title: 'Co-Founder (Panchkarma Expert/HR )',
     desc: 'Renowned for her expertise in Ayurvedic detox and women’s health, helping patients restore natural balance through Panchkarma therapies.',
+  },
+  {
+    img: 'https://i.ibb.co/d4P5gCPW/Whats-App-Image-2025-09-09-at-00-26-26.jpg',
+    name: 'Dr. Ruchi Jain',
+    title: 'Expert in Uttar Basti/ Agnikarma/ Vidh Chikitsa',
+    desc: 'Focuses on dietary healing and preventive Ayurvedic care tailored for modern lifestyles, with a patient-first approach.',
   },
   {
     img: 'https://i.ibb.co/qv5Cbjp/Whats-App-Image-2025-09-09-at-00-26-25-2.jpg',
     name: 'Dr. Amit Batra',
     title: 'Senior Ayurvedic Consultant',
     desc: 'Specializes in chronic illness management and holistic healing with a modern approach to traditional Ayurvedic science.',
-  },
-  {
-    img: 'https://i.ibb.co/7xZQbwVG/Whats-App-Image-2025-09-09-at-00-26-25.jpg',
-    name: 'Dr. Sanjay Jakhar',
-    title: 'Founder & Medical Director (Panchkarma Expert)',
-    desc: 'Over 20 years of expertise in Panchkarma, leading integrative treatments for detoxification, rejuvenation, and lifestyle disorders.',
-  },
-  {
-    img: 'https://i.ibb.co/d4P5gCPW/Whats-App-Image-2025-09-09-at-00-26-26.jpg',
-    name: 'Dr. Ruchi Jain',
-    title: 'Ayurvedic Nutrition & Wellness Expert',
-    desc: 'Focuses on dietary healing and preventive Ayurvedic care tailored for modern lifestyles, with a patient-first approach.',
   },
 ];
 
