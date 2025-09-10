@@ -17,7 +17,7 @@ const doctors = [
     img: 'https://i.ibb.co/d4P5gCPW/Whats-App-Image-2025-09-09-at-00-26-26.jpg',
     name: 'Dr. Ruchi Jain',
     title: 'Expert in Uttar Basti/ Agnikarma/ Vidh Chikitsa',
-    desc: 'Focuses on dietary healing and preventive Ayurvedic care tailored for modern lifestyles, with a patient-first approach.',
+    desc: 'Specializes in Uttar Basti, Agnikarma, and Vidh Chikitsa therapies, providing targeted treatments for urogenital health, pain management, and personalized Ayurvedic care.',
   },
   {
     img: 'https://i.ibb.co/qv5Cbjp/Whats-App-Image-2025-09-09-at-00-26-25-2.jpg',
