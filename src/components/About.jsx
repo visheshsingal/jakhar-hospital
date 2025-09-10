@@ -1,6 +1,9 @@
 import React from 'react';
 import hospitalImg from '../assets/main.jpg';
-const nabhCertificate = "https://i.ibb.co/fzRPWtN7/Whats-App-Image-2025-09-09-at-00-26-26-1.jpg";
+
+// NABH certificate images
+const nabhCertificateFront = "https://i.ibb.co/VWFXX2nk/515565716-24524672453824377-8157284868484051810-n.jpg";
+const nabhCertificateBack = "https://i.ibb.co/SDqFbSRZ/514427646-24524672450491044-2342445839580651362-n.jpg";
 
 export default function About() {
   return (
@@ -60,16 +63,27 @@ export default function About() {
           
           <div className="flex flex-col lg:flex-row items-center gap-10">
             <div className="flex-shrink-0 lg:w-2/5">
-              <div className="relative w-64 h-64 mx-auto lg:mx-0 overflow-hidden rounded-xl border-4 border-white shadow-2xl transform transition duration-500 hover:scale-105">
-                <img 
-                  src={nabhCertificate} 
-                  alt="NABH Accreditation Certificate" 
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 border-2 border-[#4A7C59] rounded-xl pointer-events-none"></div>
+              {/* Certificate Images Front & Back */}
+              <div className="flex gap-6 justify-center lg:justify-start flex-wrap">
+                <div className="relative max-w-sm w-full overflow-hidden rounded-xl border-4 border-white shadow-2xl transform transition duration-500 hover:scale-105">
+                  <img 
+                    src={nabhCertificateFront} 
+                    alt="NABH Accreditation Certificate (Front)" 
+                    className="w-full h-auto object-contain"
+                  />
+                  <div className="absolute inset-0 border-2 border-[#4A7C59] rounded-xl pointer-events-none"></div>
+                </div>
+                <div className="relative max-w-sm w-full overflow-hidden rounded-xl border-4 border-white shadow-2xl transform transition duration-500 hover:scale-105">
+                  <img 
+                    src={nabhCertificateBack} 
+                    alt="NABH Accreditation Certificate (Back)" 
+                    className="w-full h-auto object-contain"
+                  />
+                  <div className="absolute inset-0 border-2 border-[#4A7C59] rounded-xl pointer-events-none"></div>
+                </div>
               </div>
               <p className="text-center text-sm text-[#4A4A4A] mt-4 italic">
-                Our NABH Accreditation Certificate
+                NABH Accreditation Certificate (Front & Back)
               </p>
             </div>
             
