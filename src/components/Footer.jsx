@@ -8,18 +8,37 @@ export default function Footer() {
         {/* Logo & Tagline */}
         <div className="flex flex-col items-start">
           <img src={logo} alt="Jakhar Ayurved Logo" className="w-[10rem] mb-3" />
-          
         </div>
 
         {/* Quick Links */}
         <div>
           <h4 className="text-lg font-semibold mb-3">Quick Links</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="#about" className="hover:text-[#4A7C59] transition">About</a></li>
-            <li><a href="#services" className="hover:text-[#4A7C59] transition">Our Services</a></li>
-            <li><a href="#doctors" className="hover:text-[#4A7C59] transition">Our Doctors</a></li>
-            <li><a href="#testimonials" className="hover:text-[#4A7C59] transition">Patient Reviews</a></li>
-            <li><a href="#contact" className="hover:text-[#4A7C59] transition">Contact</a></li>
+            <li>
+              <a href="#about" className="hover:text-[#4A7C59] transition">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#services" className="hover:text-[#4A7C59] transition">
+                Our Services
+              </a>
+            </li>
+            <li>
+              <a href="#doctors" className="hover:text-[#4A7C59] transition">
+                Our Doctors
+              </a>
+            </li>
+            <li>
+              <a href="#testimonials" className="hover:text-[#4A7C59] transition">
+                Patient Reviews
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-[#4A7C59] transition">
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -27,25 +46,35 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold mb-3">Contact Us</h4>
           <p className="text-base text-gray-600 mt-1">
-  728/28 C/O Jakhar Hospital, near railway crossing, Sonipat Road, Rohtak - 124001, Haryana
-</p>
+            728/28 C/O Jakhar Hospital, near railway crossing, Sonipat Road,
+            Rohtak - 124001, Haryana
+          </p>
 
           <p className="mt-2 text-sm">
-            📞 <a href="tel:09896066211" className="hover:underline">09896066211</a>
+            📞{" "}
+            <a href="tel:09896066211" className="hover:underline">
+              09896066211
+            </a>
           </p>
         </div>
 
         {/* Timings */}
         <div>
           <h4 className="text-lg font-semibold mb-3">Timings</h4>
-          <p className="text-sm">🕘 Monday - Sunday</p>
-          <p className="text-sm">10:00 AM - 7:00 PM</p>
+          <p className="text-sm font-medium text-[#4A7C59]">🕘 Summer</p>
+          <p className="text-sm">8:00 AM - 2:00 PM</p>
+          <p className="text-sm mb-2">4:00 PM - 7:00 PM</p>
+
+          <p className="text-sm font-medium text-[#4A7C59]">❄️ Winter</p>
+          <p className="text-sm">9:00 AM - 2:00 PM</p>
+          <p className="text-sm">4:00 PM - 6:00 PM</p>
         </div>
       </div>
 
       {/* Bottom */}
       <div className="text-center mt-10 text-xs text-[#555] border-t border-green-100 pt-6">
-        © {new Date().getFullYear()} Jakhar Hospital Ayurved. All rights reserved.
+        © {new Date().getFullYear()} Jakhar Hospital Ayurved. All rights
+        reserved.
       </div>
     </footer>
   );
